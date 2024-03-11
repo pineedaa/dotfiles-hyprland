@@ -37,7 +37,7 @@
         "warning": "",
         "critical": ""
     },
-    "interval": 60
+    "interval": 15
   },
   "pulseaudio": {
     "format": "{icon}  {volume}",

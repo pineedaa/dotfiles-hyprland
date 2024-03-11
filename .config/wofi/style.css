@@ -1,0 +1,67 @@
+@define-color base            #1a1a1a;
+@define-color text            #eeeeee;
+@define-color green           #78A083;
+@define-color blue            #76ABAE;
+@define-color red             #C94C4C;
+@define-color yellow          #E5C07B;
+@define-color orange          #D08770;
+@define-color purple          #B48EAD;
+
+window {
+    margin: 0px;
+    background-color: @base;
+    border-radius: 0px;
+    border: 1px solid @green;
+    color: @text;
+    font-family: 'Overpass Nerd Font';
+    font-size: 12px;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 3px;
+    border: none;
+    border-radius: 3px;;
+    color: @red;
+    background-color: @base;
+
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: @base;
+    color: #191724;
+    border-radius: 0px;
+}
+
+#outer-box {
+    margin: 15px;
+    border: none;
+    background-color: #191724;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: @text;
+}
+
+#entry:selected {
+    background-color: @blue;
+    color: #191724;
+    border-radius: 0px;
+    outline: none;
+}
+
+#entry:selected * {
+    background-color: @blue;
+    color: #191724;
+    border-radius: 0px;;
+    outline: none;
+}

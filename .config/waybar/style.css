@@ -1,0 +1,71 @@
+@define-color base            #1a1a1a;
+@define-color text            #eeeeee;
+@define-color green           #78A083;
+@define-color blue            #76ABAE;
+@define-color red             #C94C4C;
+@define-color yellow          #E5C07B;
+@define-color orange          #D08770;
+@define-color purple          #B48EAD;
+
+* {
+  background: @base;
+  color: @text;
+  font-family: "Overpass Nerd Font";
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.modules-right {
+  padding-right: 10px;
+}
+
+.modules-left {
+  padding-left: 10px;
+}
+
+#window {
+  padding-left: 10px;
+}
+
+#workspaces button {
+  box-shadow: none;
+	text-shadow: none;
+  border-radius: 0;
+  border: none;
+  padding: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-bottom: 2px solid @blue;
+}
+
+#workspaces button.empty {
+  border-radius: 0;
+  box-shadow: none;
+	text-shadow: none;
+  border: none;
+}
+
+#workspaces button.active {
+  border-radius: 0;
+  box-shadow: none;
+	text-shadow: none;
+  border: none;
+  border-bottom: 2px solid @text;
+}
+
+#workspaces button.urgent {
+  border-radius: 0;
+  border-bottom: 2px solid @text;
+}
+
+#battery.critical {
+  color: @red;
+}
+
+#battery.warning{
+  color: @orange;
+}
+
+#battery.charging {
+  color: @green;
+}

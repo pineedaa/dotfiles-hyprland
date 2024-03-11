@@ -1,0 +1,57 @@
+{
+  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  /*"modules-center": ["hyprland/window"],*/
+  "modules-right": ["custom/ram", "custom/separator", "cpu", "custom/separator", "network", "custom/separator" , "battery", "custom/separator", "pulseaudio", "custom/separator", "clock", "custom/spacer", "tray", "custom/spacer"],
+  "network": {
+    "format-wifi": "&lt;net&gt; {essid}",
+    "format-ethernet": "&lt;eth&gt; {ifname}",
+    "format-disconnected": "&lt;net&gt; Disconnected",
+    "interval": 10
+  },
+  "clock": {
+    "format": "󰸗  {:%d/%m/%Y   %H:%M}",
+    "interval": 10
+  },
+  "battery": {
+    "format": "<span class='clase-bat'>&lt;bat&gt;</span> {}%",
+    "format-charging": "&lt;bat&gt; {}%",
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "interval": 60
+  },
+  "pulseaudio": {
+    "format": "&lt;vol&gt; {volume}%",
+    "format-muted": "&lt;vol&gt; muted",
+    "interval": 1
+  },
+  "cpu": {
+    "format": "&lt;cpu&gt; {usage}%"
+  },
+  "disk": {
+    "format": "&lt;root&gt; {used}"
+  },
+  "custom/separator": {
+    "format": "  |  ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/spacer": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/ram": {
+    "format": "&lt;ram&gt; {} G",
+    "interval": 10,
+    "exec": "free -m | awk 'NR==2{printf \"%.1f\", $3/1024 }'",
+    "tooltip": false
+  },
+  "custom/disk": {
+    "format": "&lt;root&gt; {} G",
+    "interval": 60,
+    "exec": "df -m | grep '/dev/nvme1n1p2' | awk '{printf \"%.0f\", $3/1024}'",
+    "tooltip": false
+  }
+}

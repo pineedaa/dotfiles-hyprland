@@ -1,0 +1,8 @@
+import = ["~/.config/alacritty/ayu-dark.toml"]
+
+[font]
+normal.family = "UbuntuMono Nerd Font"
+bold.family = "UbuntuMono Nerd Font"
+italic.family = "UbuntuMono Nerd Font"
+bold_italic.family = "UbuntuMono Nerd Font"
+size = 13.0

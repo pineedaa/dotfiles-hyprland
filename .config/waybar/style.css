@@ -55,7 +55,7 @@
 
 #workspaces button.urgent {
   border-radius: 0;
-  border-bottom: 2px solid @text;
+  border-bottom: 2px solid @yellow;
 }
 
 #battery.critical {

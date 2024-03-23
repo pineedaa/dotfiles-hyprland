@@ -14,30 +14,30 @@
 - File explorer: [Thunar](https://wiki.archlinux.org/title/Thunar)
 - Menu: [Wofi](https://github.com/fuzzybritches0/wofi)
 - Shell: [Zsh](https://www.zsh.org/)
+- Fetch: [Flowetch](https://github.com/migueravila/Flowetch)
 
 The necessary packages for this environment can be installed with:
 ```
-yay -S alacritty \n
-bat \n
-bc \n
-blueman \n
-bluez \n
-brightnessctl \n
-dunst \n
-epapirus-icon-theme \n
-eza \n
-grim \n
+yay -S alacritty \n # Terminal
+bluez \n # Bluetooth
+blueman \n # Bluetooth applet
+bc \n # For flowetch
+brightnessctl \n # Keybind for brightness
+dunst \n # Notifications
+epapirus-icon-theme \n # The icon pack
+eza \n # For the .zshrc
+grim \n # Screenshoter
 hypridle \n
 hyprland \n
 hyprlock \n
 hyprpaper \n
-network-manager-applet \n
-orchis-theme \n
-slurp \n
-waybar \n
-wl-clipboard \n
-wlsunset \n
-wofi
+network-manager-applet \n # For the waybar
+orchis-theme \n # Theme
+slurp \n # Screenshots
+waybar \n # Bar
+wl-clipboard \n # Clipboard
+wlsunset \n # Day/night gamma adjustments
+wofi # Menu
 ```
 
 # Theme

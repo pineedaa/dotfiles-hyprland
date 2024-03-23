@@ -56,4 +56,6 @@ The theme and icon pack can be applied with the [nwg-look](https://archlinux.org
 # Install
 
 You can clone this dotfiles where you prefere and inside the folder you can simply execute `stow .`.
-You can install the [stow](https://www.gnu.org/software/stow/manual/stow.html) package with pacman.
+You can install the [stow](https://www.gnu.org/software/stow/manual/stow.html) package with pacman:
+
+`$ pacman -S stow`

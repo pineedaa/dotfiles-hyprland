@@ -47,6 +47,7 @@ The theme I chose is [orchis-dark-compact](https://aur.archlinux.org/packages/or
 `$ yay -S orchis-theme`
 
 And the icon pack is [papirus]() that can be installed with pacman:
+
 `$ pacman -S epapirus-icon-theme`
 
 The theme and icon pack can be applied with the [nwg-look](https://archlinux.org/packages/extra/x86_64/nwg-look/) package.

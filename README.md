@@ -50,8 +50,9 @@ And the icon pack is [papirus]() that can be installed with pacman:
 
 `$ pacman -S epapirus-icon-theme`
 
-The theme and icon pack can be applied with the [nwg-look](https://archlinux.org/packages/extra/x86_64/nwg-look/) package.
+The font I use is OverPass Nerd Font that can be download from the [Nerd Fonts](https://www.nerdfonts.com/font-downloads) page.
 
+The theme, icon pack and font can be applied with the [nwg-look](https://archlinux.org/packages/extra/x86_64/nwg-look/) package.
 
 # Install
 

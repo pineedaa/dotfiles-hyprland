@@ -6,3 +6,6 @@ bold.family = "UbuntuMono Nerd Font"
 italic.family = "UbuntuMono Nerd Font"
 bold_italic.family = "UbuntuMono Nerd Font"
 size = 13.0
+
+[window]
+padding = {x = 10, y = 10}

@@ -58,6 +58,10 @@
   border-bottom: 2px solid @yellow;
 }
 
+#battery.plugged {
+  color: @green;
+}
+
 #battery.critical {
   color: @red;
 }

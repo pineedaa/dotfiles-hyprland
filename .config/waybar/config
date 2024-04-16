@@ -44,6 +44,8 @@
     "format-muted": " muted",
     "format-icons": {
         "headphone": "",
+        "headphones": "",
+        "headset": "",
         "phone": "",
         "portable": "",
         "car": "",
